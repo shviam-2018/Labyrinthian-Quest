@@ -36,8 +36,17 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
   bonfire: ^3.8.0
+  flame: ^1.17.0
 
 dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/AppIcon.png"
+  min_sdk_android: 21
+  
   flutter_test:
     sdk: flutter
 
@@ -53,10 +62,12 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/tile/map.json
+    - assets/tilesets/MasterSimple.tsj
+    - assets/images/player/knight_idle.png
+    - assets/images/player/knight_run.png
 
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:

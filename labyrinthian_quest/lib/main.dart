@@ -1,4 +1,3 @@
-import 'package:bonfire/map/util/world_map_reader.dart';
 import 'package:flutter/material.dart';
 import 'package:bonfire/bonfire.dart';
 
@@ -20,7 +19,6 @@ class MyApp extends StatelessWidget {
 class GameScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final mapFilePath = 'tile/map.json';
     return Scaffold(
       body: BonfireWidget(
         joystick: Joystick(

@@ -63,7 +63,7 @@ flutter_launcher_icons:
 # The following section is specific to Flutter packages.
 flutter:
   assets:
-    - assets/tile/map.json
+    - assets/tile/prjct_map.json
     - assets/tilesets/MasterSimple.tsj
     - assets/images/player/knight_idle.png
     - assets/images/player/knight_run.png

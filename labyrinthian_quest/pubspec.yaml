@@ -64,9 +64,9 @@ flutter_launcher_icons:
 flutter:
   assets:
     - assets/tile/prjct_map.json
-    - assets/tilesets/MasterSimple.tsj
     - assets/images/player/knight_idle.png
     - assets/images/player/knight_run.png
+    - assets/images/map/WallnFlorr2.png
 
   uses-material-design: true
 

@@ -1,5 +1,4 @@
- {
-"compressionlevel":-1,
+{ "compressionlevel":-1,
  "height":15,
  "infinite":false,
  "layers":[
@@ -65,7 +64,7 @@
         {
          "columns":18,
          "firstgid":361,
-         "image":"assets/images/map/WallnFlorr2.png",
+         "image":"WallnFlorr2.png",
          "imageheight":648,
          "imagewidth":1152,
          "margin":0,

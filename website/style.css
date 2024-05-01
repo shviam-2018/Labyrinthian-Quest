@@ -1,0 +1,222 @@
+/* nav bar style */
+nav {
+    background-color: #f2f2f2;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .brand-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .brand-name {
+  display: grid;
+  place-items: center;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .menu ul li a:hover {
+    color: blue; /* Change color on hover as desired */
+  }
+  
+  /*hero style*/
+  .hero {
+      padding: 50px;
+      text-align: center;
+  }
+  
+  .hero-image img {
+      width: 200px;
+      height: 200px;
+  
+  }
+  
+  .hero-text h1 {
+      font-size: 32px;
+      color: #333;
+      margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+      font-size: 18px;
+      color: #666;
+  }
+  
+  /*about me section style*/
+  .aboutme {
+      width: 100%;
+      padding: 78px 0px;
+    }
+    
+    .aboutme img {
+      height: auto;
+      width: 420px;
+    }
+    
+    .aboutme-info {
+      width: 550px;
+    }
+    
+    .main {
+      width: 1130px;
+      max-width: 95%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    
+    .aboutme-info h1 {
+      color: black;
+      font-size: 80px;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+    }
+    
+    .aboutme-info h5 {
+      color: black;
+      font-size: 25px;
+      text-transform: capitalize;
+      margin-bottom: 25px;
+      letter-spacing: 2px;
+    }
+    
+    span {
+      color: blue;
+    }
+    
+    .aboutme-info p {
+      letter-spacing: 1px;
+      line-height: 28px;
+      font-size: 18px;
+      margin-bottom: 45px;
+    }
+    
+    .homeab-btm {
+      display: inline-block;
+      margin-right: 10px;
+      background: #339DFF;
+      color: #fff;
+      text-decoration: none;
+      font-size: 13px;
+      line-height: 38px;
+      border-radius: 50px;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+      width: 170px;
+      text-align: center;
+    }
+    
+    .homeab-btm:hover {
+      background: #fff;
+      color: #339DFF;
+      box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
+    }
+  
+  .learn-maths {
+      display: grid;
+      place-items: center;
+      width: 100%;
+      padding: 78px 0px;
+    }
+  
+    /*start learning section style*/
+    .hero-start {
+      padding: 50px;
+      text-align: center;
+  }
+  
+  .hero-image-start img {
+      width: 200px;
+      height: 200px;
+  
+  }
+  
+  .hero-text-start h1 {
+      font-size: 32px;
+      color: #333;
+      margin-bottom: 10px;
+  }
+  
+  .hero-text-start p {
+      font-size: 18px;
+      color: #666;
+  }
+  
+  /*footer style*/
+  .footer-content {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-bottom {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .footer-button {
+    padding: 10px 20px;
+    color: blue;
+    border-radius: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.5s ease;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .main, .aboutme-info, .aboutme, .learn-maths, .hero, .hero-start, .footer-content, .footer-bottom, .footer-button {
+      width: 90%;
+      max-width: 95%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .main, .aboutme-info, .aboutme, .learn-maths, .hero, .hero-start, .footer-content, .footer-bottom, .footer-button {
+      width: 90%;
+      max-width: 95%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media only screen and (max-width: 411px) {
+    .main, .aboutme-info, .aboutme, .learn-maths, .hero, .hero-start, .footer-content, .footer-bottom, .footer-button {
+      width: 90%;
+      max-width: 95%;
+      margin: 0 auto;
+    }
+  
+    .menu ul li a {
+      font-size: 14px;
+    }
+  }
